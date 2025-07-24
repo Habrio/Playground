@@ -1,0 +1,7 @@
+h1, h2, h3 {
+  @apply font-semibold text-gray-900;
+}
+
+p {
+  @apply text-gray-700;
+}
