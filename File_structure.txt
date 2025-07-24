@@ -1,0 +1,89 @@
+src/
+├── App.jsx
+├── main.jsx
+├── router.jsx                # Handles all route configs
+│
+├── assets/
+│   ├── icons/                # All SVG icons (import as React components)
+│   │   ├── home.svg
+│   │   ├── cart.svg
+│   │   └── ...
+│   ├── images/               # Static images (banners, thumbnails)
+│   │   ├── hero.png
+│   │   ├── empty-cart.png
+│   │   └── ...
+│   └── illustrations/        # Optional: large SVG scenes
+│
+├── components/
+│   ├── atoms/                # Pure, reusable UI elements
+│   │   ├── Button.jsx
+│   │   ├── TextInput.jsx
+│   │   ├── Icon.jsx
+│   │   ├── Badge.jsx
+│   │   ├── Divider.jsx
+│   │   └── ...
+│   │
+│   ├── molecules/            # Functional combinations of atoms
+│   │   ├── SearchBar.jsx
+│   │   ├── WalletCard.jsx
+│   │   ├── CategoryCard.jsx
+│   │   ├── CartItem.jsx
+│   │   └── ...
+│   │
+│   ├── organisms/            # Complex blocks of UI
+│   │   ├── ShopList.jsx
+│   │   ├── FeaturedShopSlider.jsx
+│   │   ├── PaymentMethodSelector.jsx
+│   │   ├── OrderSummary.jsx
+│   │   └── ...
+│   │
+│   ├── templates/            # Page layout templates
+│   │   ├── HomeTemplate.jsx
+│   │   ├── CheckoutTemplate.jsx
+│   │   └── ...
+│   │
+│   ├── layout/               # Shared layouts and wrappers
+│   │   ├── MobileLayout.jsx
+│   │   └── BottomNav.jsx
+│   │
+│   └── ui/                   # UI utilities (spinners, modals, etc.)
+│       ├── Spinner.jsx
+│       ├── Modal.jsx
+│       └── Toast.jsx
+│
+├── pages/                    # Route-driven entry screens
+│   ├── Home.jsx
+│   ├── Cart.jsx
+│   ├── Checkout.jsx
+│   ├── Login.jsx
+│   ├── Otp.jsx
+│   ├── Profile.jsx
+│   ├── Orders.jsx
+│   ├── OrderDetail.jsx
+│   ├── Wallet.jsx
+│   ├── AddMoney.jsx
+│   ├── ShopDetail.jsx
+│   ├── ShopList.jsx
+│   ├── AboutHabrio.jsx
+│   ├── BasicOnboarding.jsx
+│   ├── ConsumerOnboarding.jsx
+│   └── TitleScreen.jsx
+│
+├── styles/
+│   ├── base/                 # Foundational styles
+│   │   ├── reset.css
+│   │   ├── typography.css
+│   │   └── variables.css
+│   │
+│   ├── layout/               # Layout and utility classes
+│   │   └── grid.css
+│   │
+│   ├── components/           # Optional CSS for components
+│   │   └── cards.css
+│   │
+│   └── App.css               # Global imports
+│
+└── utils/                    # Reusable helper functions
+    ├── api.js
+    ├── formatters.js
+    └── auth.js
